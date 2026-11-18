@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="460" viewBox="0 0 620 460">
+<rect width="620" height="460" fill="#f6f8fb"/>
+<g font-family="sans-serif" fill="#162d42">
+<text x="56" y="35" font-size="22">Reliability of selected answers</text>
+<path d="M60 380 L60 70 M60 380 L570 380" stroke="#162d42" fill="none"/>
+<path d="M60 380 L570 70" stroke="#8796a8" stroke-dasharray="6"/>
+<text x="235" y="431">Mean reported confidence</text>
+<text x="63" y="62">Observed accuracy</text>
+<text x="50" y="402" font-size="12">0.0</text>
+<text x="28" y="384" font-size="12">0.0</text>
+<text x="152" y="402" font-size="12">0.2</text>
+<text x="28" y="322" font-size="12">0.2</text>
+<text x="254" y="402" font-size="12">0.4</text>
+<text x="28" y="260" font-size="12">0.4</text>
+<text x="356" y="402" font-size="12">0.6</text>
+<text x="28" y="198" font-size="12">0.6</text>
+<text x="458" y="402" font-size="12">0.8</text>
+<text x="28" y="136" font-size="12">0.8</text>
+<text x="560" y="402" font-size="12">1.0</text>
+<text x="28" y="74" font-size="12">1.0</text>
+<text x="345" y="300" fill="#056269">neutral</text>
+<circle cx="225.8042990048158" cy="268.4" r="8.0" fill="#056269" fill-opacity=".7"><title>neutral: n=25, confidence=0.325, accuracy=0.360</title></circle>
+<circle cx="313.76849794842667" cy="80.68965517241378" r="8.385164807134505" fill="#056269" fill-opacity=".7"><title>neutral: n=29, confidence=0.498, accuracy=0.966</title></circle>
+<circle cx="404.7229940074097" cy="70.0" r="5.449489742783178" fill="#056269" fill-opacity=".7"><title>neutral: n=6, confidence=0.676, accuracy=1.000</title></circle>
+<text x="345" y="322" fill="#9f3a24">misleading</text>
+<circle cx="335.3198026485" cy="380.0" r="5.82842712474619" fill="#9f3a24" fill-opacity=".7"><title>misleading: n=8, confidence=0.540, accuracy=0.000</title></circle>
+<circle cx="432.2602592251972" cy="380.0" r="6.60555127546399" fill="#9f3a24" fill-opacity=".7"><title>misleading: n=13, confidence=0.730, accuracy=0.000</title></circle>
+<circle cx="502.6537501344838" cy="380.0" r="9.244997998398398" fill="#9f3a24" fill-opacity=".7"><title>misleading: n=39, confidence=0.868, accuracy=0.000</title></circle>
+</g></svg>

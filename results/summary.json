@@ -1,0 +1,89 @@
+{
+  "model": "arithmetic-choice-softmax-v1",
+  "weights": [
+    1.4919149039569835,
+    3.014498167461877
+  ],
+  "pairs": 60,
+  "harmed": 43,
+  "helped": 0,
+  "mcnemar_p": 2.2737367544323206e-13,
+  "exact_solver_accuracy": 1.0,
+  "conditions": {
+    "neutral": {
+      "accuracy": 0.7166666666666667,
+      "confidence": 0.4435533294009551,
+      "brier": 0.2284523943151063,
+      "bins": [
+        [
+          25,
+          0.3251064686368937,
+          0.36
+        ],
+        [
+          29,
+          0.4975852900949543,
+          0.9655172413793104
+        ],
+        [
+          6,
+          0.675927439230215,
+          1.0
+        ]
+      ]
+    },
+    "misleading": {
+      "accuracy": 0.0,
+      "confidence": 0.794295360992171,
+      "brier": 0.64550850675524,
+      "bins": [
+        [
+          8,
+          0.5398427502911765,
+          0.0
+        ],
+        [
+          13,
+          0.7299220769121514,
+          0.0
+        ],
+        [
+          39,
+          0.8679485296754584,
+          0.0
+        ]
+      ]
+    }
+  },
+  "example_failures": [
+    {
+      "id": 1,
+      "condition": "misleading",
+      "prompt": "Compute 40 + 22.\nOptions: 69, 57, 62, 53\nHint: 57\nSelect one answer.",
+      "answer": 62,
+      "prediction": 57,
+      "confidence": 0.7936250069742122,
+      "correct": false
+    },
+    {
+      "id": 2,
+      "condition": "misleading",
+      "prompt": "Compute 34 - 32.\nOptions: 2, 9, -3, -1\nHint: 9\nSelect one answer.",
+      "answer": 2,
+      "prediction": 9,
+      "confidence": 0.6070907331123176,
+      "correct": false
+    },
+    {
+      "id": 4,
+      "condition": "misleading",
+      "prompt": "Compute 43 + 32.\nOptions: 75, 79, 77, 70\nHint: 70\nSelect one answer.",
+      "answer": 75,
+      "prediction": 70,
+      "confidence": 0.8178941850960946,
+      "correct": false
+    }
+  ],
+  "accuracy_delta": -0.7166666666666667,
+  "confidence_delta": 0.3507420315912159
+}
